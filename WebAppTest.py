@@ -30,15 +30,6 @@ def index():
     return render_template("index.html")
 
 # Function to execute the code (same as in your original script)
-def execute_code(cash_book_audit_file, site_listing_file, output_folder):
-
-    import openpyxl
-from openpyxl.styles import NamedStyle, Font
-import pandas as pd
-from datetime import datetime
-import tkinter as tk
-from tkinter import filedialog
-import os
 
 # Function to execute the code
 def execute_code(cash_book_audit_file, site_listing_file, output_folder):
